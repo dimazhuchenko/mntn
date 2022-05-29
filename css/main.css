@@ -21,6 +21,11 @@ img {
     display: block;
     max-width: 100%;
     /* width: 30vw; */
+    transition: all 0.3s;
+}
+
+img:hover {
+    transform: translateY(-10px);
 }
 
 /* BASE */
@@ -432,6 +437,11 @@ article:nth-child(even) {
     color: #fbd784;
     padding-right: 40px;
     text-decoration: none;
+    transition: all 0.3s;
+}
+
+.article-read-more:hover {
+    transform: translateX(10px);
 }
 
 .article-read-more::after {
